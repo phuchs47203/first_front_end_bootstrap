@@ -1,0 +1,118 @@
+.overview {
+    /* background: url('../../Assets/overview3.jpg'); */
+    /* height: 100vh;
+    width: 100%; */
+    /* object-fit: cover; */
+    /* top: 0; */
+    /* position: relative;
+    z-index: 6; */
+}
+
+.overview-img {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75%;
+    padding: 0rem 20rem;
+}
+
+.overview-container h1 {
+    font-size: 60px;
+    line-height: 75px;
+    /* font-weight: 600; */
+    color: white;
+    font-family: var(--font-family);
+    margin-bottom: 2rem;
+}
+
+.overview-container button {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 22px;
+    /* background: transparent; */
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+
+}
+
+.overview-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 1500px) {
+    .overview-container {
+        padding: 1rem 2rem;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .overview-container h1 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .overview-container h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .overview-container button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .overview-container h1 {
+        font-size: 30px;
+        line-height: 42px;
+        margin-bottom: 1rem;
+    }
+
+    .overview-container button {
+        font-size: 16px;
+        padding: 0.2rem 0.5rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .overview-container h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .overview-container button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .overview-container {
+        top: 65%;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .overview-container {
+        top: 60%;
+    }
+}
