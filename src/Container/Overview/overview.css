@@ -6,10 +6,10 @@
     height: 100cqmin; */
     display: flex;
     flex-direction: column;
+    background-repeat: no-repeat;
     justify-content: flex-end;
     align-items: center;
-    background-repeat: no-repeat;
-    
+
 }
 
 
@@ -43,74 +43,54 @@
     color: black;
 }
 
-/* 
+
 @media screen and (max-width: 1500px) {
     .overview-container {
-        justify-content: left;
-        align-items: left;
+        padding: 0rem 1rem;
+        padding-bottom: 6rem;
     }
 
     .overview-container h1 {
-        font-size: 50px;
+        font-size: 48px;
         line-height: 62px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 990px) {
+    .overview {
+        height: 100ch;
+        background-image: url(../../Assets/overview2.jpg);
 
-    .overview-container h1 {
-        font-size: 38px;
-        line-height: 46px;
     }
 
-    .overview-container button {
-        font-size: 18px;
+    .overview-container h1 {
+        font-size: 32px;
+        line-height: 42px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .overview-container h1 {
-        font-size: 30px;
-        line-height: 42px;
-        margin-bottom: 1rem;
-    }
 
-    .overview-container button {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 300px) {
     .overview-container h1 {
         font-size: 24px;
         line-height: 32px;
     }
 
     .overview-container button {
-        font-size: 14px;
+        font-size: 13px;
+        padding: 0.5rem;
     }
 }
 
-@media screen and (max-height: 800px) {
-    .overview-container {
-        top: 65%;
+@media screen and (max-width: 400px) {
+    .overview-container h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 1rem;
+    }
+
+    .overview-container button {
+        font-size: 12px;
+        padding: 0.3rem;
     }
 }
-
-@media screen and (max-height: 700px) {
-    .overview-container {
-        top: 60%;
-    }
-}
-
-@media screen and (max-height: 550px) {
-    .overview-img {
-        height: 120vh;
-    }
-}
-
-@media screen and (max-height: 350px) {
-    .overview-img {
-        height: 130vh;
-    }
-} */
