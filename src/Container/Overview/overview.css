@@ -1,6 +1,6 @@
 .overview {
 
-    background-image: url(../../Assets/overview4.jpg);
+    background-image: url(../../Assets/overview2.jpg);
     height: 100vh;
     /* height: 100cqi;
     height: 100cqmin; */
@@ -59,8 +59,6 @@
 @media screen and (max-width: 990px) {
     .overview {
         height: 100ch;
-        background-image: url(../../Assets/overview2.jpg);
-
     }
 
     .overview-container h1 {
