@@ -1,16 +1,15 @@
 .overview {
-    
-    background-image: url(../../Assets/overview2.jpg);
-    height: 100ch;
+
+    background-image: url(../../Assets/overview4.jpg);
+    height: 100vh;
     /* height: 100cqi;
     height: 100cqmin; */
-
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    
 }
 
 
