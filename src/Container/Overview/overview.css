@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width: 550px) {
+    .overview {
+        background-image: url(../../Assets/overview4.jpg);
+
+    }
 
     .overview-container h1 {
         font-size: 24px;
