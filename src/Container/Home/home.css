@@ -2,6 +2,19 @@
     padding-top: 0rem;
     top: 0;
 }
-.home_padding{
+
+.home_padding {
     padding: 0rem 6rem;
+}
+
+@media screen and (max-width: 990px) {
+    .home_padding {
+        padding: 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home_padding {
+        padding: 0rem 0.5rem;
+    }
 }
