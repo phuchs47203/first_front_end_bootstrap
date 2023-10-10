@@ -68,31 +68,39 @@
 }
 
 @media screen and (max-width: 550px) {
+
     /* .overview {
         background-image: url(../../Assets/overview2.jpg);
 
     } */
+    .overview {
+        justify-content: center;
+    }
+
+    .overview-container {
+        padding: 0rem 1rem;
+    }
 
     .overview-container h1 {
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 30px;
+        line-height: 36px;
     }
 
     .overview-container button {
-        font-size: 13px;
+        font-size: 18px;
         padding: 0.5rem;
     }
 }
 
 @media screen and (max-width: 400px) {
     .overview-container h1 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height: 32px;
         margin-bottom: 1rem;
     }
 
     .overview-container button {
-        font-size: 12px;
+        font-size: 16px;
         padding: 0.3rem;
     }
 }
