@@ -1,0 +1,45 @@
+.gpt4_feature {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.gpt4_feature_img {
+    display: flex;
+    justify-content: center;
+}
+
+.gpt4_feature_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.gpt4_feature_contain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.gpt4_feature_contain h1 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 550;
+}
+.gpt4_feature_contain a:hover{
+    color: rgb(232, 249, 250);
+    text-decoration: overline;
+}
+.gpt4_feature_contain a {
+    text-decoration: none;
+    color: rgb(72, 95, 68);
+
+}
+.gpt4_feature_contain p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 550;
+}

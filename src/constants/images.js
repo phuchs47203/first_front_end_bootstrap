@@ -21,7 +21,10 @@ import shopify from '../Assets/shopify.png';
 import sourcegraph from '../Assets/sourcegraph.png';
 import sprinklr from '../Assets/sprinklr.png';
 import stripe from '../Assets/stripe.jpg';
-
+import feature1 from '../Assets/feature1.jpg';
+import feature2 from '../Assets/feature2.jpg';
+import feature3 from '../Assets/feature3.jpg';
+import feature4 from '../Assets/feature4.jpg';
 export default {
     be_my_eyes,
     brand_block,
@@ -46,4 +49,8 @@ export default {
     sourcegraph,
     sprinklr,
     stripe,
+    feature1,
+    feature2,
+    feature3,
+    feature4
 }

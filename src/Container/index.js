@@ -5,3 +5,4 @@ export { default as Home } from './Home/Home';
 export { default as Research } from './Research/Research';
 export { default as Safety } from './Safety/Safety';
 export { default as Overview} from './Overview/Overview';
+export { default as Update} from './UpdateArtical/Update.jsx';
