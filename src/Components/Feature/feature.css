@@ -25,21 +25,26 @@
 .gpt4_feature_contain h1 {
     font-family: var(--font-family);
     font-size: 18px;
-    line-height: 24px;
-    font-weight: 550;
-}
-.gpt4_feature_contain a:hover{
-    color: rgb(232, 249, 250);
-    text-decoration: overline;
+    line-height: 32px;
+    font-weight: 650;
+    word-spacing: 0.1rem;
 }
 .gpt4_feature_contain a {
     text-decoration: none;
-    color: rgb(72, 95, 68);
-
+    color: white
 }
-.gpt4_feature_contain p{
+.gpt4_feature_contain a:hover {
+    color: rgb(216, 245, 240);
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+
+
+.gpt4_feature_contain p {
     font-family: var(--font-family);
     font-size: 16px;
     line-height: 24px;
-    font-weight: 550;
+    font-weight: 500;
+    color: rgb(194, 189, 189);
 }

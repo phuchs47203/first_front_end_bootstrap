@@ -1,10 +1,13 @@
 import React from 'react'
 import './feature.css';
-const Feature = ({linkimg, title,linktoFeature, date}) => {
+const Feature = ({ linkimg, title, linktoFeature, date }) => {
     return (
         <div className='gpt4_feature'>
             <div className='gpt4_feature_img'>
-                <img src={linkimg} alt="" />
+                <a href={linktoFeature}>
+                    <img src={linkimg} alt="" />
+                </a>
+
             </div>
             <div className='gpt4_feature_contain'>
                 <h1><a href={linktoFeature}>{title}</a></h1>

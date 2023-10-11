@@ -25,6 +25,11 @@ import feature1 from '../Assets/feature1.jpg';
 import feature2 from '../Assets/feature2.jpg';
 import feature3 from '../Assets/feature3.jpg';
 import feature4 from '../Assets/feature4.jpg';
+import feature5 from '../Assets/feature5.jpg';
+import feature6 from '../Assets/feature6.jpg';
+import feature2_1 from '../Assets/feature2_1.jpg';
+import iconAppStore from '../Assets/app-store-badge-128x128.png';
+import iconchplay from '../Assets/google-play-badge.png';
 export default {
     be_my_eyes,
     brand_block,
@@ -51,6 +56,11 @@ export default {
     stripe,
     feature1,
     feature2,
+    feature2_1,
     feature3,
-    feature4
+    feature4,
+    feature5,
+    feature6,
+    iconAppStore,
+    iconchplay
 }
