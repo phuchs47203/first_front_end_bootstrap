@@ -30,19 +30,28 @@
 .overview-container button {
     width: fit-content;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     font-size: 22px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
-
+    font-family: var(--font-family);
+}
+.overview-container a {
+    font-family: var(--font-family);
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .overview-container button:hover {
     background-color: white;
     color: black;
 }
-
+.overview-container a:hover {
+    color: black;
+}
 
 @media screen and (max-width: 1500px) {
     .overview-container {
@@ -86,9 +95,12 @@
         line-height: 36px;
     }
 
-    .overview-container button {
+    .overview-container button{
         font-size: 18px;
         padding: 0.5rem;
+    }
+    .overview-container a {
+        font-size: 18px;
     }
 }
 
@@ -102,5 +114,8 @@
     .overview-container button {
         font-size: 16px;
         padding: 0.3rem;
+    }
+    .overview-container a {
+        font-size: 16px;
     }
 }
